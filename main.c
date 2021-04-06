@@ -458,7 +458,7 @@ int handleoutput( int fd )
     // This is not a problem, as ssh exists immediately in such a case
     static int prevmatchO=0;
     static int stateO=0;
-    static const char *compareO="Verification code:";
+    static const char *compareO="erification code:";
     char buffer[256];
     int ret=0;
 
